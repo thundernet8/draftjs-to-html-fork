@@ -608,7 +608,7 @@ export function getBlockMarkup(
                 blockHtml.push(`</${blockTag}>`);
             } else {
                 blockHtml.push(
-                    `<pre class="draft2html--pre"><code class="_lang-default draft2html--code">${getCodeBlockInnerMarkup(
+                    `<pre class="draft2html--pre"><code class="_lang_default draft2html--code">${getCodeBlockInnerMarkup(
                         block,
                         entityMap,
                         hashtagConfig,
