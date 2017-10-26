@@ -1,10 +1,12 @@
 # draftjs-to-html-fork
 
-draftjs raw content to html convertor with code highlight support
+draftjs raw content to html convertor with code highlight handling support.
 
 # Note
 
 This is a fork and modified verision of draftjs-to-html package, the very most change is add code highlight support.
+
+The `code` block will wrapped with `<pre class="draft2html--pre"><code class="_lang_default draft2html--code">` and `</code></pre>`. And the source code text will treated by prismjs library. What more you should do is to choose a code highlight stylesheet file as you like from [prismjs](http://prismjs.com/). The [highlightStyleSample.css](highlightStyleSample.css) is one of them.
 
 ## Installation
 
